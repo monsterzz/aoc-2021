@@ -4,6 +4,7 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
 
 use std::{env, fmt, io};
 use std::fs::File;
@@ -52,6 +53,9 @@ fn main() {
 
         "day_6_1" => day6::task1(input),
         "day_6_2" => day6::task2(input),
+
+        "day_7_1" => day7::task1(input),
+        "day_7_2" => day7::task2(input),
 
         _ => panic!("unknown task"),
     }
